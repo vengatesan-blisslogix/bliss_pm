@@ -1,10 +1,9 @@
 <h1>Project Management API</h1>
 <hr>
-<h2>Routes</h2></br>
-<strong>Authentication</strong></br>
-
-POST   /v1/auth/sign_in(.:format), PARAMS: email, password</br>
-DELETE /v1/auth/sign_out(.:format)</br>
-POST   /v1/auth(.:format), PARAMS: email, password, password_confirmation</br></br>
-
+<strong>Sign Up</strong></br>
+POST   api/v1/auth(.:format), PARAMS: email, password, password_confirmation</br>
+<strong>Sign In</strong></br>
+POST   api/v1/auth/sign_in(.:format), PARAMS: email, password</br>
+<strong>Sign Out</strong></br>
+DELETE api/v1/auth/sign_out(.:format)</br>
 
